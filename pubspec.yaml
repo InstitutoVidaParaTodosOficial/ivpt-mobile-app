@@ -90,3 +90,7 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+# configure lint_staged
+lint_staged:
+  'lib/**.dart': dart format -l 120 && dart analyze --fatal-infos --fatal-warnings && dart fix --apply
