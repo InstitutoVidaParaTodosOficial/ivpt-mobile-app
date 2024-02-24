@@ -23,5 +23,5 @@ We suggest using Android Studio IDE for better development experience.
 
 ## How to Contribute
 
-1 - Join our [Slack channel](https://institutovida-zr57409.slack.com/archives/C06LUSG46QH) and introduce yourself.
-2 - Check list of [Open Issues](https://github.com/InstitutoVidaParaTodosOficial/mobile-app/issues) and start open your Pull Requests.
+1. Join our [Slack channel](https://institutovida-zr57409.slack.com/archives/C06LUSG46QH) and introduce yourself.
+2. Check list of [Open Issues](https://github.com/InstitutoVidaParaTodosOficial/mobile-app/issues) and start open your Pull Requests.
