@@ -1,16 +1,27 @@
-# app
+## About
 
-Aplicativo do Instituto Vida para Todos.
+[Instituto Vida para Todos](http://institutovidaparatodos.org.br/) mobile app.
+
+Our goal is to spread the gospel of the kingdom all around the world.
+
+Social Media:
+
+* [Facebook](https://www.facebook.com/institutovidaparatodos)
+* [Instagram](https://www.instagram.com/institutovidaparatodos)
+* [YouTube](https://www.youtube.com/institutovidaparatodos)
+* [Spotify](https://open.spotify.com/show/7omrpEfEN794JONo8jfQpV?si=YCN9lVsJTzCswXXI1GLeOA)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is using:
 
-A few resources to get you started if this is your first Flutter project:
+* [Flutter 3.19.1 (Stable Channel)](https://github.com/flutter/flutter.git);
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+How to configure [development environment](https://docs.flutter.dev/get-started/install) with Flutter.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+We suggest using Android Studio IDE for better development experience.  
+
+## How to Contribute
+
+1 - Join our [Slack channel](https://institutovida-zr57409.slack.com/archives/C06LUSG46QH) and introduce yourself.
+2 - Check list of [Open Issues](https://github.com/InstitutoVidaParaTodosOficial/mobile-app/issues) and start open your Pull Requests.
