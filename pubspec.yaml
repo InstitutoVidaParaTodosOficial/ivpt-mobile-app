@@ -96,3 +96,11 @@ flutter:
 # configure lint_staged
 lint_staged:
   'lib/**.dart': dart format -l 120 && dart analyze --fatal-infos --fatal-warnings && dart fix --apply
+
+# https://pub.dev/packages/flutter_launcher_icons
+# must run `flutter pub run flutter_launcher_icons` after updating icon in order to take effect
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/icon.png"
+
