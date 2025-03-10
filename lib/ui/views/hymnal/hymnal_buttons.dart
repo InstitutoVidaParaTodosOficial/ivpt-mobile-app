@@ -3,16 +3,18 @@ import 'package:flutter/material.dart';
 
 class HymnalButtons extends StatelessWidget {
   final String text;
-  final IconData iconData;
+  final IconData? iconData;
   final double? sizeIcon;
   final void Function()? onPressed;
+  final Widget? imageIcon;
 
   const HymnalButtons({
     super.key,
     required this.text,
-    required this.iconData,
+    this.iconData,
     this.sizeIcon,
     this.onPressed,
+    this.imageIcon,
   });
 
   @override
@@ -23,10 +25,10 @@ class HymnalButtons extends StatelessWidget {
         text,
         style: const TextStyle(fontSize: 25, fontFamily: "sans-serif-light"),
       ),
-      icon: Icon(
+      icon: iconData != null ? Icon(
         iconData,
         size: sizeIcon,
-      ),
+      ) : imageIcon,
       iconAlignment: IconAlignment.start,
       style: ElevatedButton.styleFrom(
         padding: const EdgeInsets.symmetric(
