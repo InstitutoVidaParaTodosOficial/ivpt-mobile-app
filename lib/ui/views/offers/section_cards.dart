@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:app/ui/widgets/offers/custom_card.dart';
+import 'package:app/ui/views/offers/custom_card.dart';
 import 'package:app/utils/app_colors/app_colors.dart';
 
 class SectionCards extends StatefulWidget {

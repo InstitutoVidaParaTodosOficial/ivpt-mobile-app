@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:app/ui/widgets/offers/section_about.dart';
-import 'package:app/ui/widgets/offers/section_cards.dart';
+import 'package:app/ui/views/offers/section_about.dart';
+import 'package:app/ui/views/offers/section_cards.dart';
 
-class OffersBody extends StatefulWidget {
-  const OffersBody({
+class OffersScreen extends StatefulWidget {
+  const OffersScreen({
     super.key,
   });
 
   @override
-  State<OffersBody> createState() => _OffersBodyState();
+  State<OffersScreen> createState() => _OffersScreenState();
 }
 
-class _OffersBodyState extends State<OffersBody> {
+class _OffersScreenState extends State<OffersScreen> {
   final gapWidget = const SizedBox(height: 20);
 
   @override

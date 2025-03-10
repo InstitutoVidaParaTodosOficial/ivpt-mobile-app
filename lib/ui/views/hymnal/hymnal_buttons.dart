@@ -5,18 +5,20 @@ class HymnalButtons extends StatelessWidget {
   final String text;
   final IconData iconData;
   final double? sizeIcon;
+  final void Function()? onPressed;
 
   const HymnalButtons({
     super.key,
     required this.text,
     required this.iconData,
     this.sizeIcon,
+    this.onPressed,
   });
 
   @override
   Widget build(BuildContext context) {
     return ElevatedButton.icon(
-      onPressed: () {},
+      onPressed: onPressed ?? () {},
       label: Text(
         text,
         style: const TextStyle(fontSize: 25, fontFamily: "sans-serif-light"),

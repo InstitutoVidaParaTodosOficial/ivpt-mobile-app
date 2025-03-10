@@ -13,14 +13,14 @@ extension Localization on String {
         "en-US": "Contribute to all fronts of the Lord's work!",
         "pt-BR": "Contribua com todas as frentes da obra do Senhor!",
         "es-ES": "¡Contribuya a todos los frentes de la obra del Señor!",
-        "fr-FR": "Contribuez à tous les fronts de l'œuvre du Seigneur!",
+        "fr-FR": "Contribuez à tous les fronts de l'oeuvre du Seigneur!",
         "ko-KR": "주님의 사역의 모든 전선에 기여하십시오!",
       } +
       {
         "en-US": "The Central of Offerings was created to make it easier to contribute to the various needs of the Lord's work, bringing together all the updated information and methods for giving in one place.",
         "pt-BR": "A Central de Ofertas foi criada para facilitar a realização das ofertas para as várias necessidades da obra do Senhor, reunindo todas as informações atualizadas e meios para ofertar em só um lugar.",
         "es-ES": "La Central de Ofrendas fue creada para facilitar la contribución a las diversas necesidades de la obra del Señor, reuniendo toda la información actualizada y los métodos para ofrendar en un solo lugar.",
-        "fr-FR": "La Centrale des Offrandes a été créée pour faciliter les contributions aux différents besoins de l'œuvre du Seigneur, en regroupant toutes les informations et méthodes à jour en un seul endroit.",
+        "fr-FR": "La Centrale des Offrandes a été créée pour faciliter les contributions aux différents besoins de l'oeuvre du Seigneur, en regroupant toutes les informations et méthodes à jour en un seul endroit.",
         "ko-KR": "헌금 센터는 주님의 사역의 다양한 필요에 기여하기 쉽게 만들기 위해 만들어졌으며, 모든 최신 정보와 기부 방법을 한 곳에 모았습니다.",
       } +
       {
@@ -62,18 +62,21 @@ extension Localization on String {
         "en-US": "Maintenance of the Lord's Work Communication Channel.",
         "pt-BR": "Manutenção do Canal de Comunicação da Obra do Senhor.",
         "es-ES": "Mantenimiento del Canal de Comunicación de la Obra del Señor.",
-        "fr-FR": "Maintenance du Canal de Communication de l'œuvre du Seigneur.",
+        "fr-FR": "Maintenance du Canal de Communication de l'oeuvre du Seigneur.",
         "ko-KR": "주님의 사역 커뮤니케이션 채널 유지.",
       } +
       { /// Screen Ivpt
         "en-US": "Who We Are",
         "pt-BR": "Quem Somos",
+        "es-ES": "Quiénes Somos",
+        "fr-FR": "Qui Nous Sommes",
+        "ko-KR": "우리가 누구인지",
       } +
       {
         "en-US": "We are a communication channel aimed at spreading the work of the gospel of the kingdom of God throughout the earth. In addition to our work on social media, we have other expansion tools:",
         "pt-BR": "Somos um canal de comunicação que visa propagar a obra do evangelho do reino de Deus em toda a terra. Além do nosso trabalho nas mídias sociais, contamos com outras ferramentas de expansão:",
         "es-ES": "Somos un canal de comunicación destinado a propagar la obra del evangelio del reino de Dios por toda la tierra. Además de nuestro trabajo en las redes sociales, contamos con otras herramientas de expansión:",
-        "fr-FR": "Nous sommes un canal de communication visant à diffuser l'œuvre de l'évangile du royaume de Dieu sur toute la terre. En plus de notre travail sur les réseaux sociaux, nous avons d'autres outils d'expansion:",
+        "fr-FR": "Nous sommes un canal de communication visant à diffuser l'oeuvre de l'évangile du royaume de Dieu sur toute la terre. En plus de notre travail sur les réseaux sociaux, nous avons d'autres outils d'expansion:",
         "ko-KR": "우리는 하나님의 왕국 복음 사역을 온 땅에 전파하는 것을 목표로 하는 커뮤니케이션 채널입니다. 소셜 미디어에서의 작업 외에도 다른 확장 도구를 보유하고 있습니다.",
       } +
       {
@@ -166,6 +169,13 @@ extension Localization on String {
         "es-ES": "Si tiene alguna pregunta o comentario, por favor contáctenos.",
         "fr-FR": "Si vous avez des questions ou des commentaires, veuillez nous contacter.",
         "ko-KR": "질문이나 의견이 있으시면 연락주세요.",
+      } +
+      {
+        "en-US": "May God bless you and supply you with His LIFE!",
+        "pt-BR": "Que Deus o(a) abençoe e o(a) supra com a Sua VIDA!",
+        "es-ES": "¡Que Dios le bendiga y le supla con Su VIDA!",
+        "fr-FR": "Que Dieu vous bénisse et vous comble de Sa VIE!",
+        "ko-KR": "하나님께서 당신을 축복하시고 그의 생명으로 채워주시길 바랍니다!",
       };
 
   String get i18texts => localize(this, _t);

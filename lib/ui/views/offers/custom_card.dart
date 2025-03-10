@@ -4,8 +4,10 @@ import 'package:app/utils/translations/translations_texts.dart';
 import 'package:app/ui/widgets/custom/custom_title.dart';
 
 class CustomCard extends StatelessWidget {
-  final String title, description;
+
   final Image image;
+  final String title, description;
+  final TextAlign? textAlignDescription;
   final Color backgroundImageColor;
 
   const CustomCard({
@@ -14,6 +16,7 @@ class CustomCard extends StatelessWidget {
     required this.description,
     required this.image,
     required this.backgroundImageColor,
+    this.textAlignDescription,
   });
 
   @override
@@ -36,7 +39,7 @@ class CustomCard extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           Padding(
-            padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
+            padding: const EdgeInsets.fromLTRB(10, 10, 10, 3),
             child: CustomTitle(text: title.i18texts),
           ),
           Row(
@@ -58,13 +61,13 @@ class CustomCard extends StatelessWidget {
                 margin: const EdgeInsets.symmetric(horizontal: 10),
                 child: Text(
                   description.i18texts,
-                  textAlign: TextAlign.justify,
+                  textAlign: textAlignDescription ?? TextAlign.justify,
                   style: const TextStyle(fontFamily: "sans-serif-light"),
                 ),
               )
             ],
           ),
-          const SizedBox(height: 14),
+          const SizedBox(height: 15),
           FilledButton(
             style: FilledButton.styleFrom(
               backgroundColor: AppColors.primary,
@@ -84,7 +87,7 @@ class CustomCard extends StatelessWidget {
               textAlign: TextAlign.center,
               style: const TextStyle(
                 fontFamily: "sans-serif-light",
-                fontSize: 20,
+                fontSize: 17,
                 fontWeight: FontWeight.bold
               ),
             ),
