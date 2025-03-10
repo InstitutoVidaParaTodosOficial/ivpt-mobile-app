@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:app/ui/widgets/custom/app_bar.dart';
 import 'package:app/ui/widgets/custom/bottom_nav_bar.dart';
-import 'package:app/ui/widgets/custom/body_views_builder.dart';
+import 'package:app/ui/views/main_view/body_views_builder.dart';
 
-class MainScaffold extends StatefulWidget {
-  const MainScaffold({
+class MainScaffoldView extends StatefulWidget {
+  const MainScaffoldView({
     super.key,
   });
 
   @override
-  State<MainScaffold> createState() => _MainScaffoldState();
+  State<MainScaffoldView> createState() => _MainScaffoldViewState();
 }
 
-class _MainScaffoldState extends State<MainScaffold> {
+class _MainScaffoldViewState extends State<MainScaffoldView> {
   final _pageController = PageController();
   final ValueNotifier<int> _indexNotifier = ValueNotifier<int>(0);
 

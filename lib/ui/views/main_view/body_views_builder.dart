@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:app/ui/widgets/home/home_body.dart';
-import 'package:app/ui/widgets/hymnal/hymnal_body.dart';
-import 'package:app/ui/widgets/ivpt/ivpt_body.dart';
-import 'package:app/ui/widgets/offers/offers_body.dart';
+import 'package:app/ui/views/home/home_screen.dart';
+import 'package:app/ui/views/hymnal/hymnal_screen.dart';
+import 'package:app/ui/views/ivpt/ivpt_screen.dart';
+import 'package:app/ui/views/offers/offers_screen.dart';
 
 class BodyViewsBuilder extends StatelessWidget {
   final ValueNotifier<int> indexNotifier;
@@ -23,10 +23,10 @@ class BodyViewsBuilder extends StatelessWidget {
         indexNotifier.value = indexPage;
       },
       children: const [
-        HomeBody(),
-        HymnalBody(),
-        IvptBody(),
-        OffersBody(),
+        HomeScreen(),
+        HymnalScreen(),
+        IvptScreen(),
+        OffersScreen(),
       ],
     );
   }
