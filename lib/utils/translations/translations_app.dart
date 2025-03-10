@@ -45,7 +45,7 @@ extension Localization on String {
         "ko-KR": "헌금 센터",
       } +
       {
-        "en-US": "Keyboard",
+        "en-US": "Keypad",
         "pt-BR": "Teclado",
         "es-ES": "Teclado",
         "fr-FR": "Clavier",
